@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Export-Package: org.vectracom.applications.camel.bootstrap;uses:="java
+ x.naming,org.apache.log4j,org.jboss.system"
+Implementation-Title: org.mobicents:bootstrap
+Implementation-Version: 1.0
+Built-By: masood
+Tool: Bnd-1.15.0
+Bundle-Name: Bootstrap
+Created-By: Apache Maven Bundle Plugin
+Implementation-URL: http://www.restcomm.org
+Implementation-Vendor-Id: TeleStax, Inc.
+Build-Jdk: 1.7.0_95
+Bundle-Version: 1.0.0
+Bnd-LastModified: 1540981165862
+Bundle-ManifestVersion: 2
+Bundle-Description: JAIN SLEE Project created with Restcomm EclipSLEE 
+ v2.0.0.v20170427-1524
+Bundle-License: http://www.gnu.org/licenses/lgpl-2.1.html
+Import-Package: javax.naming,org.apache.log4j,org.jboss.system
+Bundle-SymbolicName: org.mobicents.bootstrap
+

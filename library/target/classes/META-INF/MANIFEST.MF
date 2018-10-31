@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Implementation-Title: org.mobicents:ssp-library
+Implementation-Version: 1.0
+Built-By: masood
+Tool: Bnd-1.15.0
+Bundle-Name: Core : SLEE : Library
+Created-By: Apache Maven Bundle Plugin
+Implementation-URL: http://www.restcomm.org
+Implementation-Vendor-Id: TeleStax, Inc.
+Build-Jdk: 1.7.0_95
+Bundle-Version: 1.0.0
+Bnd-LastModified: 1540981161445
+Bundle-ManifestVersion: 2
+Bundle-License: http://www.gnu.org/licenses/lgpl-2.1.html
+Bundle-Description: JAIN SLEE Project created with Restcomm EclipSLEE 
+ v2.0.0.v20170427-1524
+Bundle-SymbolicName: org.mobicents.ssp-library
+

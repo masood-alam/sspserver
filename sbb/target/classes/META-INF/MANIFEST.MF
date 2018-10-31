@@ -1,0 +1,60 @@
+Manifest-Version: 1.0
+Export-Package: org.vectracom.cap.ssp;uses:="org.jboss.mx.util,org.apa
+ che.log4j,javax.management,javolution.xml.stream,javolution.xml,javol
+ ution.text,org.mobicents.protocols.ss7.cap.api.service.circuitSwitche
+ dCall,org.mobicents.protocols.ss7.cap.api.service.circuitSwitchedCall
+ .primitive,org.mobicents.protocols.ss7.cap.api.isup,org.mobicents.pro
+ tocols.ss7.cap.api,javax.slee.resource,org.mobicents.protocols.ss7.ca
+ p.api.EsiBcsm,org.mobicents.protocols.ss7.inap.api,org.mobicents.slee
+ ,javax.slee,javax.servlet,net.java.slee.resource.http.events,javax.sl
+ ee.serviceactivity,org.mobicents.protocols.ss7.isup,org.mobicents.pro
+ tocols.ss7.map.api.service.callhandling,org.mobicents.protocols.ss7.m
+ ap.api.primitives,org.mobicents.protocols.ss7.sccp.parameter,org.mobi
+ cents.protocols.ss7.map.api.service.mobility.subscriberInformation,or
+ g.mobicents.slee.resource.cap,org.mobicents.protocols.ss7.isup.messag
+ e.parameter,org.mobicents.protocols.ss7.inap.api.isup,org.mobicents.p
+ rotocols.ss7.map.api.service.mobility.subscriberManagement,org.mobice
+ nts.protocols.ss7.inap.api.primitives,org.mobicents.slee.resource.cap
+ .events,net.java.slee.resource.http,org.mobicents.protocols.ss7.sccp.
+ impl.parameter,javax.slee.facilities,org.mobicents.protocols.ss7.cap.
+ api.primitives,org.mobicents.protocols.ss7.map.api,org.restcomm.camel
+ gateway,org.mobicents.protocols.ss7.indicator,javax.servlet.http,org.
+ mobicents.ss7.management.console"
+Implementation-Title: org.mobicents:SspServer-sbb
+Implementation-Version: 1.0
+Built-By: masood
+Tool: Bnd-1.15.0
+Bundle-Name: Restcomm :: SspServer-sbb v1.0
+Created-By: Apache Maven Bundle Plugin
+Implementation-URL: http://www.restcomm.org
+Implementation-Vendor-Id: TeleStax, Inc.
+Build-Jdk: 1.7.0_95
+Bundle-Version: 1.0.0
+Bnd-LastModified: 1540981163237
+Bundle-ManifestVersion: 2
+Bundle-License: http://www.gnu.org/licenses/lgpl-2.1.html
+Bundle-Description: JAIN SLEE Project created with Restcomm EclipSLEE 
+ v2.0.0.v20170427-1524
+Import-Package: javax.management,javax.servlet,javax.servlet.http,java
+ x.slee,javax.slee.facilities,javax.slee.resource,javax.slee.serviceac
+ tivity,javolution.text,javolution.xml,javolution.xml.stream,net.java.
+ slee.resource.http,net.java.slee.resource.http.events,org.apache.log4
+ j,org.jboss.mx.util,org.mobicents.protocols.ss7.cap.api,org.mobicents
+ .protocols.ss7.cap.api.EsiBcsm,org.mobicents.protocols.ss7.cap.api.is
+ up,org.mobicents.protocols.ss7.cap.api.primitives,org.mobicents.proto
+ cols.ss7.cap.api.service.circuitSwitchedCall,org.mobicents.protocols.
+ ss7.cap.api.service.circuitSwitchedCall.primitive,org.mobicents.proto
+ cols.ss7.inap.api,org.mobicents.protocols.ss7.inap.api.isup,org.mobic
+ ents.protocols.ss7.inap.api.primitives,org.mobicents.protocols.ss7.in
+ dicator,org.mobicents.protocols.ss7.isup,org.mobicents.protocols.ss7.
+ isup.message.parameter,org.mobicents.protocols.ss7.map.api,org.mobice
+ nts.protocols.ss7.map.api.primitives,org.mobicents.protocols.ss7.map.
+ api.service.callhandling,org.mobicents.protocols.ss7.map.api.service.
+ mobility.subscriberInformation,org.mobicents.protocols.ss7.map.api.se
+ rvice.mobility.subscriberManagement,org.mobicents.protocols.ss7.sccp.
+ impl.parameter,org.mobicents.protocols.ss7.sccp.parameter,org.mobicen
+ ts.slee,org.mobicents.slee.resource.cap,org.mobicents.slee.resource.c
+ ap.events,org.mobicents.ss7.management.console,org.restcomm.camelgate
+ way
+Bundle-SymbolicName: org.mobicents.SspServer-sbb
+

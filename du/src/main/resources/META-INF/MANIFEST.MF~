@@ -1,0 +1,35 @@
+Manifest-Version: 1.0
+
+Archiver-Version: Plexus Archiver
+
+Created-By: Apache Maven Bundle Plugin
+
+Built-By: masoodalam
+
+Build-Jdk: 1.8.0_121
+
+Bundle-Description: JAIN SLEE Project created with Restcomm EclipSLEE 
+
+ v2.0.0.v20170427-1524
+
+Implementation-Title: org.mobicents:SspServer-DU
+
+Bundle-License: http://www.gnu.org/licenses/lgpl-2.1.html
+
+Bundle-SymbolicName: org.mobicents.SspServer-DU
+
+Implementation-Version: 1.0
+
+Bundle-ManifestVersion: 2
+
+Bnd-LastModified: 1504105634553
+
+Implementation-Vendor-Id: TeleStax, Inc.
+
+Tool: Bnd-1.15.0
+
+Bundle-Version: 1.0.0
+
+Bundle-Name: Restcomm :: SspServer-DU v1.0
+
+Implementation-URL: http://www.restcomm.org

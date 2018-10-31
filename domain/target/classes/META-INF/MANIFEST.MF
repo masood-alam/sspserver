@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Export-Package: org.vectracom.cap.ssp;uses:="org.jboss.mx.util,org.apa
+ che.log4j,javax.management,javolution.xml.stream,javolution.xml,javol
+ ution.text,org.mobicents.ss7.management.console"
+Implementation-Title: org.mobicents:domain
+Implementation-Version: 1.0
+Built-By: masood
+Tool: Bnd-1.15.0
+Bundle-Name: Domain
+Created-By: Apache Maven Bundle Plugin
+Implementation-URL: http://www.restcomm.org
+Implementation-Vendor-Id: TeleStax, Inc.
+Build-Jdk: 1.7.0_95
+Bundle-Version: 1.0.0
+Bnd-LastModified: 1540981153367
+Bundle-ManifestVersion: 2
+Bundle-License: http://www.gnu.org/licenses/lgpl-2.1.html
+Bundle-Description: SspServer Domain
+Import-Package: javax.management,javolution.text,javolution.xml,javolu
+ tion.xml.stream,org.apache.log4j,org.jboss.mx.util,org.mobicents.ss7.
+ management.console
+Bundle-SymbolicName: org.mobicents.domain
+

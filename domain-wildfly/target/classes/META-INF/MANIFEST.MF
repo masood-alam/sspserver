@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Bundle-Description: SspServer Domain
+Implementation-Title: org.mobicents:domain
+Bundle-License: http://www.gnu.org/licenses/lgpl-2.1.html
+Bundle-SymbolicName: org.mobicents.domain
+Implementation-Version: 1.0
+Built-By: masoodalam
+Bundle-ManifestVersion: 2
+Bnd-LastModified: 1505215583669
+Implementation-Vendor-Id: TeleStax, Inc.
+Tool: Bnd-1.15.0
+Export-Package: org.vectracom.cap.ssp
+Bundle-Version: 1.0.0
+Bundle-Name: Domain
+Created-By: Apache Maven Bundle Plugin
+Implementation-URL: http://www.restcomm.org
+Build-Jdk: 1.8.0_121
+

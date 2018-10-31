@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deployment xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="urn:jboss:bean-deployer:2.0">
+
+
+ <!-- ==================================================================== -->
+ <!-- SSP Management -->
+ <!-- ==================================================================== -->
+
+    <bean name="SspManagement" class="org.vectracom.cap.ssp.SspManagement">
+        <constructor>
+            <parameter>SspManagement</parameter>
+        </constructor>
+        <property name="persistDir">${jboss.server.data.dir}</property>
+    </bean>
+        <!--
+    <bean name="MscShellExecutor" class="org.mobicents.gmlc.GmlcShellExecutor">
+        <property name="gmlcManagement">
+            <inject bean="MscManagement" />
+        </property>
+    </bean> 
+        -->
+
+
+
+
+</deployment>

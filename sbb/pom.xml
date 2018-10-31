@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.mobicents</groupId>
+    <artifactId>SspServer</artifactId>
+    <version>1.0</version>
+  </parent>
+  <artifactId>SspServer-sbb</artifactId>
+  <name>Restcomm :: ${project.artifactId} v${project.version}</name>
+  <dependencies>
+	<!--
+    <dependency>
+      <groupId>javax.slee</groupId>
+      <artifactId>jain-slee</artifactId>
+    </dependency>
+	-->
+    <dependency>
+      <groupId>org.mobicents.servers.jainslee.api</groupId>
+      <artifactId>jain-slee-11-ext</artifactId>
+      <version>${jslee.ext.version}</version>
+      <scope>provided</scope>
+    </dependency>
+    
+    
+    		<dependency>
+			<groupId>${project.groupId}</groupId>
+			<artifactId>ssp-library</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+
+        <dependency>
+            <artifactId>restcomm-slee-ra-cap-ratype</artifactId>
+            <groupId>org.mobicents.resources</groupId>
+            <version>${restcomm.resources.cap.version}</version>
+        </dependency>
+    
+            <dependency>
+            <artifactId>sccp-impl</artifactId>
+            <groupId>org.mobicents.protocols.ss7.sccp</groupId>
+            <version>${jss7.restcomm.version}</version>
+        </dependency>
+
+       <dependency>
+            <artifactId>map-api</artifactId>
+            <groupId>org.mobicents.protocols.ss7.map</groupId>
+            <version>${jss7.restcomm.version}</version>
+        </dependency>
+
+            <dependency>
+            <artifactId>map-impl</artifactId>
+            <groupId>org.mobicents.protocols.ss7.map</groupId>
+            <version>${jss7.restcomm.version}</version>
+        </dependency>
+
+       <dependency>
+            <artifactId>inap-api</artifactId>
+            <groupId>org.mobicents.protocols.ss7.inap</groupId>
+            <version>${jss7.restcomm.version}</version>
+        </dependency>
+
+         <dependency>
+            <artifactId>inap-impl</artifactId>
+            <groupId>org.mobicents.protocols.ss7.inap</groupId>
+            <version>${jss7.restcomm.version}</version>
+        </dependency>
+
+
+       <dependency>
+            <artifactId>isup-api</artifactId>
+            <groupId>org.mobicents.protocols.ss7.isup</groupId>
+            <version>${jss7.restcomm.version}</version>
+        </dependency>
+
+        <dependency>
+            <artifactId>isup-impl</artifactId>
+            <groupId>org.mobicents.protocols.ss7.isup</groupId>
+            <version>${jss7.restcomm.version}</version>
+        </dependency>
+
+
+    
+ 		<dependency>
+            <groupId>org.mobicents.resources</groupId>
+            <artifactId>http-servlet-ratype</artifactId>
+            <version>${restcomm.resources.http.servlet.version}</version>
+        </dependency>    
+    
+    
+    
+    
+  </dependencies>
+</project>
